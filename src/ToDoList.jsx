@@ -9,7 +9,6 @@ const ToDoList = () => {
         setNewTask(event.target.value);
     }
 
-
     const addTask = () => {
         if(newTask.trim() !== "")
         setTasks([...tasks, newTask]); 
@@ -89,4 +88,4 @@ const ToDoList = () => {
     )
 }
 
-export default ToDoList
+export default ToDoList;
